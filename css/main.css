@@ -1,0 +1,164 @@
+/* GENERAL */
+
+body {
+    background-color: midnightblue;
+}
+
+.btn-xl {
+    padding: 20px 48px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: skyblue!important;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    margin: 0px !important;
+}
+
+.navbar-default {
+    background-color: midnightblue;
+}
+
+
+/* HEADER */
+
+header .main-logo {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: inline-block;
+}
+
+@media(min-width:768px) {
+    header .main-logo {
+        text-align: center;
+        padding-top: 160px;
+        padding-bottom: 270px;
+        display: inline-block;
+    }
+}
+
+
+/* SERVICES */
+
+#services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+#services h2 {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+#services p {
+    color: grey
+}
+
+#services i {
+    color: #6E9AC5;
+    padding: 5px;
+}
+
+
+/* GAMES */
+
+#games {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#games h1 {
+    font-size: 4em;
+}
+
+#games hr {
+    width: 10%;
+    border-color: #6E9AC5;
+    border-width: 3px;
+}
+
+.game-features {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.game-features H3 {
+    font-weight: bold;
+}
+
+
+/* MEMORY ATTACK */
+
+#memory-attack {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #1E466E;
+}
+
+#memory-attack img {
+    display: inline-block;
+    max-height: 250px;
+}
+
+#memory-attack .btn-xl {
+    background-color: #1E466E;
+    color: white !important;
+}
+
+#memory-attack .btn-xl:hover {
+    background-color: #325A81;
+    color: aliceblue !important;
+}
+
+
+/*  HACKED */
+
+#hacked {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+#hacked img {
+    display: inline-block;
+    max-height: 300px
+}
+
+#hacked i {
+    color: black;
+}
+
+#hacked .btn-xl {
+    background-color: black;
+}
+
+
+/*  FOOTER */
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: skyblue;
+}
